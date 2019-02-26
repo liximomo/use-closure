@@ -16,7 +16,7 @@
   "author": "liximomo <liximomo@gmail.com>",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git@github.com:liximomo/use-closure.git"
   },
   "license": "MIT",
   "engines": {
