@@ -1,6 +1,6 @@
 {
   "name": "use-closure",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "React hook for capture up-to-date value in closure",
   "keywords": [
     "react",
