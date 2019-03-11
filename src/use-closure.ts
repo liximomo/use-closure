@@ -1,4 +1,4 @@
-import { useRef, useEffect } from 'react';
+import { useRef, useLayoutEffect } from 'react';
 
 type Ref<T> = React.MutableRefObject<T | undefined>;
 type Effect = React.EffectCallback;
@@ -35,7 +35,7 @@ export default function useClosure<T extends Function>(fn: T): T {
     captureState.wokrInProgressFn = fn;
   }
 
-  useEffect(captureState.captureEffect);
+  useLayoutEffect(captureState.captureEffect);
 
   return captureState.closure.proxy;
 }
